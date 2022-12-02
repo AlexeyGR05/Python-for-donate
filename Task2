@@ -1,0 +1,5 @@
+long_str = input("Введіть рядок не довше за 20 символів: ")
+if len(long_str) <= 20:
+    print(long_str)
+else:
+    print("Error")
