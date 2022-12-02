@@ -1,0 +1,4 @@
+import math
+circle_radius = int(input("Введіть радіус кола: "))
+s = math.pi * (circle_radius ** 2)
+print("Площа круга дорівнює: ", s)
