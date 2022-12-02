@@ -1,0 +1,9 @@
+first_side_triangle = int(input("Введіть довжину першої сторони трикутника: "))
+second_side_triangle = int(input("Введіть довжину другої сторони трикутника: "))
+third_side_triangle = int(input("Введіть довжину третьої сторони трикутника: "))
+if first_side_triangle + second_side_triangle > third_side_triangle \
+        and second_side_triangle + third_side_triangle > first_side_triangle \
+        and third_side_triangle + first_side_triangle > second_side_triangle:
+    print("Трикутник існує")
+else:
+    print("Трикутника не існує")
