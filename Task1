@@ -1,0 +1,4 @@
+first_name = input("Введіть ім'я: ")
+surname = input("Введіть ім'я по батькові: ")
+last_name = input("Введіть прізвище: ")
+print(f"{first_name} {surname} {last_name}")
