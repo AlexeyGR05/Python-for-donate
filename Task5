@@ -1,0 +1,6 @@
+name_product = input("Введіть назву товару: ")
+price_product = input("Введіть ціну товару: ")
+
+store = dict(name=name_product, price=price_product)
+
+print(store)
