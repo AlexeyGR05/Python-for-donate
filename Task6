@@ -1,0 +1,3 @@
+working_days = [days for days in ["monday", "tuesday", "wednesday", "thursday", "friday"]]
+days_off = [days for days in ["saturday", "sunday"]]
+print("Будні дні: ", list(working_days), "\n""Вихідні дні:",  set(days_off))
