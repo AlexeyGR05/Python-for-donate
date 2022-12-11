@@ -1,0 +1,7 @@
+numb = int(input("Введіть число: "))
+
+result_f = 1
+
+for i in range(2, numb+1):
+    result_f = result_f * i
+print("Факторіал введеного числа дорівнює: ", result_f)
