@@ -1,0 +1,4 @@
+def square_rectangle(a, b):
+    return a * b
+
+print(square_rectangle(4, 5))
