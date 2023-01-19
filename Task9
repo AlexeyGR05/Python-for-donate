@@ -1,0 +1,13 @@
+x = 3
+print(f'Global {x}')
+
+def my_function_1():
+    x = 2
+    print(f'Enclosing {x}')
+
+    def my_function_2():
+        x = 3
+        print(f'Local {x}')
+
+    my_function_2()
+my_function_1()
