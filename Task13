@@ -1,0 +1,29 @@
+class Dog:
+    belonging1 = 'home'
+    belonging2 = 'homeless'
+    breed = 'shepherd'
+    color = 'Gray'
+    voice = 'Gav'
+    food = 'meat'
+    after_eating = voice * 5
+
+
+    def dog_discription(self, belonging1, belonging2, breed, color ):
+        self.belonging1 = belonging1
+        self.belonging2 = belonging1
+        self.breed = breed
+        self.color = color
+
+    def dog_pet(self, voice, food, after_eating):
+        self.voic = voice
+        self.food = food
+        self.after_eating = after_eating
+
+my_dog = Dog()
+print(my_dog.belonging1)
+print(my_dog.belonging2)
+print(my_dog.breed)
+print(my_dog.color)
+print(my_dog.voice)
+print(my_dog.food)
+print(my_dog.after_eating)
