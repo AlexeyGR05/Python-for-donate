@@ -1,0 +1,33 @@
+from abc import abstractmethod, ABC
+
+class Pets:
+    belonging1 = 'home'
+    belonging2 = 'homeless'
+    food = 'meat'
+
+    def pet_discription(self, belonging1, belonging2, breed, color):
+        self.belonging1 = belonging1
+        self.belonging2 = belonging1
+        self.breed = breed
+        self.color = color
+
+    def pet_pet(self, voice, food):
+        self.voic = voice
+        self.food = food
+class Cat(Pets):
+    breed = 'British'
+    color = 'Gray'
+    voice = 'Meow'
+class Dog(Pets):
+    breed = 'shepherd'
+    color = 'Black'
+    voice = 'Gav'
+
+my_pets = Pets()
+print(my_pets.belonging1)
+print(my_pets.belonging2)
+print(my_pets.food)
+my_cat = Cat()
+print(my_cat.belonging1)
+my_dog = Dog()
+print(my_dog.belonging2)
