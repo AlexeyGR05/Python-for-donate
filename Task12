@@ -1,22 +1,30 @@
 class Cat:
     belonging1 = 'home'
     belonging2 = 'homeless'
-    color = ['black', 'wite', 'gray']
+    breed = 'British'
+    color = 'Black'
     voice = 'Meow'
+    food = 'meat'
     after_eating = voice * 3
 
 
-    def cat_life(self, belonging1, belonging2, color, voice, after_eating ):
+    def cat_discription(self, belonging1, belonging2, breed, color ):
         self.belonging1 = belonging1
         self.belonging2 = belonging1
+        self.breed = breed
         self.color = color
-        self.voice = voice
-        self.after_eating = after_eating
 
+    def cat_pet(self, voice, food, after_eating):
+        self.voic = voice
+        self.food = food
+        self.after_eating = after_eating
 
 my_cat = Cat()
 print(my_cat.belonging1)
 print(my_cat.belonging2)
+print(my_cat.breed)
 print(my_cat.color)
 print(my_cat.voice)
+print(my_cat.food)
 print(my_cat.after_eating)
+
